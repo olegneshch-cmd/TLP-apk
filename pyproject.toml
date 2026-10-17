@@ -1,0 +1,18 @@
+[project]
+name = "tlp"
+version = "1.0.0"
+description = "Програмний комплекс TLP (Troop Leading Procedures)"
+requires-python = ">=3.10"
+dependencies = ["flet==0.28.3"]
+
+[tool.flet]
+org = "ua.nasv"
+product = "TLP"
+company = "Кафедра тактики інженерних військ"
+copyright = "НАСВ"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android]
+min_sdk_version = 24
